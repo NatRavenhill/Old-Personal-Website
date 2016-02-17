@@ -1,1 +1,95 @@
-.jumbotron{background-color:#140014;color:white}
+/* set background image per page */
+.home-bg .jumbotron{
+    background-image: url(../images/italy.jpg);
+}
+
+.jumbotron {
+background-size : cover;
+color:white;
+height:500px;
+margin-top: -24px;
+
+}
+
+.jumbotron .overlay {
+    background-color: rgba(24, 0, 55, 0.6);;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:83%;
+
+}
+
+a {
+    color:#C8A2CB;
+
+}
+
+.jumbotron .overlay h1 {
+  text-align:center;
+   margin-top: 200px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+.jumbotron .overlay h2 {
+  text-align:center;
+   padding-right: 50px;
+    padding-left: 100px;
+}
+
+
+.navbar a{
+   color: white;
+   text-decoration: none;
+}
+
+.navbar-inner {
+    background:transparent;
+    
+}
+
+.container {
+   padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+
+
+.footer {
+ padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+    padding-left: 70px;
+}
+
+p {
+
+color:white;
+font-size: 20px;
+padding-bottom: 50px;
+
+
+}
+
+.nav li {
+  display: inline;
+}
+
+body {
+  background-color: #222222;
+  color:white;
+}
+
+.img-responsive
+{
+	border-radius: 90%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+
+
+
+

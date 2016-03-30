@@ -37,7 +37,8 @@
           <li class="academia">
            <a href="academia.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="project.html">Research</a></li>
+            <li><a href="HoTT.html">HoTT</a></li>
+            <li><a href="Brzozowski.html">Automata Theory</a></li>
           </ul></li>      
           <li><a href="https://medium.com/@natravenhill" >Blog</a></li>
         <li><a href="https://github.com/NatRavenhill/">GitHub</a></li>
@@ -49,18 +50,45 @@
   
    <div class="jumbotron">
       <div class="overlay">
-    <H1> The coalgebraic interpretation of Brzozowski's Minimisation Algorithm </H1>
+    <H1> Projects </H1>
+     <h3> The following pages are a record of the personal academic projects I have completed during my degrees. Click the links for more information.</h3>
     </div>   
   </div>
 
    </br>
 
         <div class="container">
-            
 
-<p><a href="Brzozowski/project.pdf">report</a></p>
+      <table>
+       <!-- -Project 1 -->
+       <tr>
+           <td class="d"><h2><a> Formalised Programming Language </a></h2></td>
+          <td class ="topic"> Semantics </td>
+          </tr>
+       <tr><td>I am working on formalising the operational and denotational semantics of a small imperative language, in Agda</td></tr>
+       <tr><td class ="row"><i>Mini-Project completed in April 2016</i></td></tr>
+       <!-- -Project 2 -->
+       <tr>
+           <td class="d"><h2><a> Separation Logic </a></h2></td>
+           <td class ="topic"> Verification </td>
+       </tr>
+       <tr><td> Separation logic proofs for simple data structures an use of common software tools based on Separation Logic</td></tr>
+       <tr><td class ="row"><i>Mini-Project completed in January 2016</i></td></tr>
+       <!-- -Project 3 -->
+       <tr>
+           <td class="d"><h2><a href ="Brzozowski.html"> The coalgebraic interpretation of Brzozowski's Minimisation Algorithm </a></h2></td>
+           <td class ="topic"> Automata, Coalgebra</td>
+       </tr>
+       <tr><td> Explanation of the coalgebraic proof of correctness of Brzozowski's automata minimisation algorithm</td></tr>
+       <tr><td class ="row"><i>Undergraduate dissertation completed in April 2015</i></td></tr>
+       <!-- -Project 4 -->
+       <tr>
+           <td class="d"><h2><a href="HoTT.html"> Martin Lof Type Theory, Homotopy Type Theory and Agda</a></h2></td>
+           <td class ="topic"> Type Theory</td>
+       </tr>
+       <tr><td> Formalsing Martin Lof Type Thoery and some basic HoTT in Agda</td></tr>
+       <tr><td class ="row"><i>Individual Study module completed in January 2015</i></td></tr>
 
-<p><a href="Brzozowski/Presentation.pdf">slides</a></p>
 
 </div>
     </body>

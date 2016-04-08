@@ -22,7 +22,7 @@ margin-top: -24px;
 
 
 a {
-    color: #E6C8E8;
+    color: #C8A2CB;
 }
 
 .projtitle {
@@ -35,7 +35,7 @@ a {
 }
 
 .projtitle h1 {
-  color:#E6C8E8;
+  color:#C8A2CB;
 }
 
 
@@ -93,7 +93,7 @@ padding-bottom: 50px;
 }
 
 body {
-  background-color: black;
+  background-color: #222222;
   color:white;
 }
 

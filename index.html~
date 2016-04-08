@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html class="home-bg" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
@@ -12,14 +12,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
-        <title>Natalie Ravenhill - HoTT</title>
+        <title>Natalie Ravenhill</title>
    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     </head>
-    <body>
-        
-   <div class="projtitle">
-   <H1>Martin Lof Type Theory, Homotopy Type Theory and Agda</H1>
-    </div>
+
+<body>
 
 <nav class = "navbar navbar-fixed-top navbar-default" role = "navigation">
    
@@ -39,29 +36,50 @@
 	
       <ul class = "nav navbar-nav">
           <li class="academia">
-           <a href="academia.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
+           <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="project.html">Research</a></li>
-          </ul></li>      
-  <li><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CV<span class="caret"></span></a>
+          </ul></li>
+         <li><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CV<span class="caret"></span></a>
 <ul class="dropdown-menu" role="menu">
             <li><a href="CV/AcademicNatalieRavenhill.pdf">Academic</a></li>
             <li><a href="CV/DevNatalieRavenhill.pdf">Software Development</a></li>
           </ul></li>
+  
 <li><a href="https://medium.com/@natravenhill" >Blog</a></li>
         <li><a href="https://github.com/NatRavenhill/">GitHub</a></li>
      <li><a href="https://twitter.com/NatRavenhill">Twitter</a></li>
-      </ul>
-   </div>
+
+ </div>
    
 </nav>
-     
+
    </br>
 
-            <div class="container">
- <p> This was a project for the Individual study module in the 3rd year of my undergraduate degree, for which I wrote a <a href="HoTT/report.pdf">report</a> and gave a <a href="HoTT/Presentation.pdf">presentation.</a></p>
+   <div class="jumbotron">
+     <div class="overlay">
+   <H1> Natalie Ravenhill</H1>
+   <h2><i> Computer Science Student</i> </h2>
+   <img src="images/myface.jpg" alt="face" class="img-responsive center-block" style="width:150px;height:200px;margin-top:30px;" />
 
-<p>Homotopy Type Theory (HoTT) is an extension of Dependent Type Theory that uses concepts and constructions from Homotopy theory, a branch of topology; Most of the inital work was published as a feely available <a href="http://homotopytypetheory.org/book/">book</a>.
+      </div>
+    </div>
+   <div style="padding-top:100px;text-align:center;background:black;background-size:cover;">
+    <p> I am a <strong>4th year Computer Science student </strong> studying at the <a href="http://cs.bham.ac.uk"> University of Birmingham</a>.</p>
+   </div>
 
+   <div class="container" style="padding-top:100px;">
+	   <div class="col-md-6">
+		<p> I am interested in research in Theoretical Computer Science, particularly in Programming Language Semantics.</p>
+	</div>
+
+	   <!---   <div class="col-md-4">
+		<p> I am currently studying <a href="https://en.wikipedia.org/wiki/Separation_logic">Separation Logic</a> and am working on a mini project in this area</p>
+	      </div>--->
+
+		<div class="col-md-6">
+		  <p> I also recently became a <a href="./stemnet.html"> STEMNET</a> ambassador.</p>
+		  </div>
+</div>
     </body>
 </html>

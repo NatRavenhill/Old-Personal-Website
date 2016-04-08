@@ -52,20 +52,24 @@
    
 </nav>
   
-   <div class="jumbotron">
-      <div class="overlay">
+   <div class="projtitle">
     <H1> The coalgebraic interpretation of Brzozowski's Minimisation Algorithm </H1>
-    </div>   
   </div>
 
    </br>
 
-        <div class="container">
-            
+  <div class="container">
 
-<p><a href="Brzozowski/project.pdf">report</a></p>
+    <p> This was my final year project for my undergraduate degree, for which I wrote a <a href="Brzozowski/project.pdf">report</a> and gave a <a href="Brzozowski/Presentation.pdf">presentation.</a></p>
 
-<p><a href="Brzozowski/Presentation.pdf">slides</a></p>
+    <p> In 2014, a group of researchers including <a href="http://perso.ens-lyon.fr/filippo.bonchi/">Fillipo Bonchi</a>  published a <a href="http://www.cs.mcgill.ca/~prakash/Pubs/BrzMin.pdf"> paper </a>, which detailed a coalgebraic proof of correctness of an algorithm that minimises automata, due to Brzozowski.  Coalgebra are abstract mathematical structures that can represent structures in which one input is usually mapped to many different outputs, such as state systems and oinductive data types, like streams..
+This suits automata, particularly the transition function, as we map transitions from a state to a different state using many different symbols from the input alphabet.</p>
+
+    <p> In this paper, the two conecpts of  <b>reachability</b> (which means that all states can be reached from the initial state) and <b>observability</b> (which means all states recognise a unique language)  are represented as an algebra and a coalgebra, respectively, to give an effective proof of correctness of Brzozowski's algorithm </p>
+
+    <p> As an undergraduate student, I had never studied Category Theory or Coalgebra before, so my report sought to explain these concepts to the reader, then explain the proof of correctness in a way that a Computer Science student could understand. </p>
+
+    <p>In my report I discussed the stages of Brzozowski’s algorithm and how this can be applied to an example, reachability and observabilty of automata and the duality between these properties. I have also discussed how to represent an automaton as both an algebra and coalgebra and how reversing this representation of an automaton using the contravariant powerset functor can be used to prove the correctness of Brzozowski’s Algorithm</p>
 
 </div>
     </body>

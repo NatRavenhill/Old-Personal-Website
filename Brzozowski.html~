@@ -12,14 +12,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
-        <title>Natalie Ravenhill - HoTT</title>
+        <title>Natalie Ravenhill - Brzozowski</title>
    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     </head>
-    <body>
-        
-   <div class="projtitle">
-   <H1>Martin Lof Type Theory, Homotopy Type Theory and Agda</H1>
-    </div>
+<body>
 
 <nav class = "navbar navbar-fixed-top navbar-default" role = "navigation">
    
@@ -42,26 +38,35 @@
            <a href="academia.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="project.html">Research</a></li>
-          </ul></li>      
+          </ul></li>  
   <li><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CV<span class="caret"></span></a>
 <ul class="dropdown-menu" role="menu">
             <li><a href="CV/AcademicNatalieRavenhill.pdf">Academic</a></li>
             <li><a href="CV/DevNatalieRavenhill.pdf">Software Development</a></li>
-          </ul></li>
-<li><a href="https://medium.com/@natravenhill" >Blog</a></li>
+          </ul></li>    
+          <li><a href="https://medium.com/@natravenhill" >Blog</a></li>
         <li><a href="https://github.com/NatRavenhill/">GitHub</a></li>
      <li><a href="https://twitter.com/NatRavenhill">Twitter</a></li>
       </ul>
    </div>
    
 </nav>
-     
+  
+   <div class="jumbotron">
+      <div class="overlay">
+    <H1> The coalgebraic interpretation of Brzozowski's Minimisation Algorithm </H1>
+    </div>   
+  </div>
+
    </br>
 
-            <div class="container">
- <p> This was a project for the Individual study module in the 3rd year of my undergraduate degree, for which I wrote a <a href="HoTT/report.pdf">report</a> and gave a <a href="HoTT/Presentation.pdf">presentation.</a></p>
+        <div class="container">
+            
 
-<p>Homotopy Type Theory (HoTT) is an extension of Dependent Type Theory that uses concepts and constructions from Homotopy theory, a branch of topology; Most of the inital work was published as a feely available <a href="http://homotopytypetheory.org/book/">book</a>.
+<p><a href="Brzozowski/project.pdf">report</a></p>
 
+<p><a href="Brzozowski/Presentation.pdf">slides</a></p>
+
+</div>
     </body>
 </html>

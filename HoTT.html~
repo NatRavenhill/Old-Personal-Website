@@ -59,9 +59,11 @@
    </br>
 
             <div class="container">
- <p> This was a project for the Individual study module in the 3rd year of my undergraduate degree, for which I wrote a <a href="HoTT/report.pdf">report</a> and gave a <a href="HoTT/Presentation.pdf">presentation.</a></p>
 
-<p>Homotopy Type Theory (HoTT) is an extension of Dependent Type Theory that uses concepts and constructions from Homotopy theory, a branch of topology; Most of the inital work was published as a feely available <a href="http://homotopytypetheory.org/book/">book</a>.
+
+<p><a href="HoTT/report.pdf">report</a></p>
+
+<p><a href="HoTT/Presentation.pdf">slides</a></p>
 
     </body>
 </html>

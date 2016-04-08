@@ -59,7 +59,15 @@
    </br>
 
             <div class="container">
- <p> This was a Mini Project for my masters degree, for which I wrote a <a href="">report</a>.
+ <p> This was a Mini Project for my masters degree, for which I wrote a <a href="HoTT/report.pdf">report</a>.
+
+ <p>Homotopy Type Theory (HoTT) is an extension of Dependent Type Theory that uses concepts and constructions from Homotopy theory, a branch of topology, that describes when two objects in a topological space can be continuously deformed into each other. Most of the inital work by many researchers was published as a freely available <a href="http://homotopytypetheory.org/book/">book</a>. This book was being brought out and discussed a lot in my department, particularly at the Agda Club, so I wanted to see what HoTT was all about. </p>
+
+ <p> Therefore this project started as an attempt to write some type theory and HoTT in the proof assitant Agda. Agda is based on Dependent Type theory, so it is easy to construct dependent types using Agda.</p>
+
+ <p> In the report I formalised all of the Dependent Type Theory defined in Chapter 1 of the HoTT book and began to formaise the HoTT in Chapter 2. I learnt about constructing and using (dependent) (co)product/function,boolean, natural number and identity types in Dependent Type Theory and also studied the Curry Howard correspondence between types and intuitionstic logic </p>
+
+ <p>I also learnt how identity types correspond to paths and that this can be used to build up HoTT, showing that properties that hold for equality also hold on paths in a space and homotopies on these paths.</p>
 
     </body>
 </html>

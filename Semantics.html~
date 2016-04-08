@@ -12,10 +12,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
-        <title>Natalie Ravenhill - Projects</title>
+        <title>Natalie Ravenhill - HoTT</title>
    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     </head>
-<body>
+    <body>
+        
+   <div class="projtitle">
+   <H1>Martin Lof Type Theory, Homotopy Type Theory and Agda</H1>
+    </div>
 
 <nav class = "navbar navbar-fixed-top navbar-default" role = "navigation">
    
@@ -44,54 +48,26 @@
             <li><a href="CV/AcademicNatalieRavenhill.pdf">Academic</a></li>
             <li><a href="CV/DevNatalieRavenhill.pdf">Software Development</a></li>
           </ul></li>
-          <li><a href="https://medium.com/@natravenhill" >Blog</a></li>
+<li><a href="https://medium.com/@natravenhill" >Blog</a></li>
         <li><a href="https://github.com/NatRavenhill/">GitHub</a></li>
      <li><a href="https://twitter.com/NatRavenhill">Twitter</a></li>
       </ul>
    </div>
    
 </nav>
-  
-      <div class="projtitle">
-    <H1> <b>Research Projects</b> </H1>
-     <h3> The following pages are a record of the academic research projects I have completed during my degrees. Click the titles for more information.</h3>
-    </div>  
-
+     
    </br>
 
-        <div class="container">
+            <div class="container">
+ <p> This was a project for the Individual study module in the 3rd year of my undergraduate degree, for which I wrote a <a href="HoTT/report.pdf">report</a> and gave a <a href="HoTT/Presentation.pdf">presentation.</a></p>
 
-      <table>
-       <!-- -Project 1 -->
-       <tr>
-           <td class="d"><h2><a href="Semantics.html"> Formalised Programming Language </a></h2></td>
-          <td class ="topic"> Semantics </td>
-          </tr>
-       <tr><td>I am working on formalising the operational and denotational semantics of a small imperative language, in Agda</td></tr>
-       <tr><td class ="row"><i>Mini-Project completed in April 2016</i></td></tr>
-       <!-- -Project 2 -->
-       <tr>
-           <td class="d"><h2><a href="Sep.html"> Separation Logic </a></h2></td>
-           <td class ="topic"> Verification </td>
-       </tr>
-       <tr><td> Separation logic proofs for simple data structures an use of common software tools based on Separation Logic</td></tr>
-       <tr><td class ="row"><i>Mini-Project completed in January 2016</i></td></tr>
-       <!-- -Project 3 -->
-       <tr>
-           <td class="d"><h2><a href ="Brzozowski.html"> The coalgebraic interpretation of Brzozowski's Minimisation Algorithm </a></h2></td>
-           <td class ="topic"> Automata, Coalgebra</td>
-       </tr>
-       <tr><td> Explanation of the coalgebraic proof of correctness of Brzozowski's automata minimisation algorithm</td></tr>
-       <tr><td class ="row"><i>Undergraduate dissertation completed in April 2015</i></td></tr>
-       <!-- -Project 4 -->
-       <tr>
-           <td class="d"><h2><a href="HoTT.html"> Martin Lof Type Theory, Homotopy Type Theory and Agda</a></h2></td>
-           <td class ="topic"> Type Theory</td>
-       </tr>
-       <tr><td> Formalsing Martin Lof Type Theory and some basic HoTT in Agda</td></tr>
-       <tr><td class ="row"><i>Individual Study module completed in January 2015</i></td></tr>
+ <p>Homotopy Type Theory (HoTT) is an extension of Dependent Type Theory that uses concepts and constructions from Homotopy theory, a branch of topology, that describes when two objects in a topological space can be continuously deformed into each other. Most of the inital work by many researchers was published as a freely available <a href="http://homotopytypetheory.org/book/">book</a>. This book was being brought out and discussed a lot in my department, particularly at the Agda Club, so I wanted to see what HoTT was all about. </p>
 
+ <p> Therefore this project started as an attempt to write some type theory and HoTT in the proof assitant Agda. Agda is based on Dependent Type theory, so it is easy to construct dependent types using Agda.</p>
 
-</div>
+ <p> In the report I formalised all of the Dependent Type Theory defined in Chapter 1 of the HoTT book and began to formaise the HoTT in Chapter 2. I learnt about constructing and using (dependent) (co)product/function,boolean, natural number and identity types in Dependent Type Theory and also studied the Curry Howard correspondence between types and intuitionstic logic </p>
+
+ <p>I also learnt how identity types correspond to paths and that this can be used to build up HoTT, showing that properties that hold for equality also hold on paths in a space and homotopies on these paths.</p>
+
     </body>
 </html>

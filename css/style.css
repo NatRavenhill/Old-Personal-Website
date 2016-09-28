@@ -1,13 +1,14 @@
 /* set background image per page */
 .home-bg .jumbotron{
     background-image: url(../images/italy.jpg);
+    height:650px;
 }
 
 .jumbotron {
 background-size : cover;
 color:white;
-height:500px;
-margin-top: -24px;
+height:600px;
+//margin-top: -24px;
 
 }
 
@@ -17,12 +18,7 @@ margin-top: -24px;
     top: 0;
     left: 0;
     width:100%;
-    height:530px;
-}
-
-
-a {
-    color: #E6C8E8;
+    height:676px;
 }
 
 .projtitle {
@@ -40,16 +36,17 @@ a {
 
 
 .jumbotron .overlay h1 {
-  text-align:center;
-   margin-top: 200px;
+ // text-align:center;
+   margin-top: 120px;
     padding-right: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .jumbotron .overlay h2 {
-  text-align:center;
+  //text-align:center;
    padding-right: 50px;
-    padding-left: 100px;
+   padding-left: 50px;
+   padding-bottom:30px;
 }
 
 
@@ -64,46 +61,43 @@ a {
 }
 
 .container {
-   padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-left: 100px;
 }
 
 
 
-.footer {
+/*.footer {
  padding-top: 50px;
     padding-right: 20px;
     padding-bottom: 200px;
     padding-left: 70px;
-}
+}*/
 
-p {
+/*p {
 
 color:white;
 font-size: 20px;
 padding-bottom: 50px;
 
 
-}
+}*/
 
 .nav li {
   display: inline;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(16,16,16);
   color:white;
 }
 
 .img-responsive
 {
-	border-radius: 50%;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+    //	border-radius: 50%;
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.9);
 }
 
-.navbar-toggle {
+/*.navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -113,15 +107,15 @@ body {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-}
+}*/
 
-.navbar-toggle .icon-bar {
+/*.navbar-toggle .icon-bar {
     display: block;
     width: 22px;
     height: 2px;
     border-radius: 1px;
     background-color: #fc0 /* change this to any color you want! */;
-}
+}*/
 
  table {
   margin-bottom:50px;
@@ -144,9 +138,59 @@ body {
 
  h3 {
  margin-top:100px;
+ margin-left:center;
  text-align:center;
+ font-weight:bold;
+ }
+
+
+
+
+ .container {
+     font-size:large;
+ }
+
+ #projects {
+  background-color:white;
+  color:black;
+  margin:auto;
+  padding: 80px 120px;
+ }
+
+
+ .carousel {
+   
+     padding:100px 100px;
+ }
+ 
+ .carousel-inner{
+     margin:auto;
+
+ }
+
+ .item h4 {
+    margin: 70px 0;
+ }
+
+ .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color:rgb(13, 0, 26);;
 }
 
+.carousel-indicators li {
+    border-color:rgb(13, 0, 26);;
+}
 
+.carousel-indicators li.active {
+    background-color: rgb(13, 0, 26);;
+}
 
+#me {
+ padding: 100px 200px;
+ margin:auto;
+}
 
+#project {
+    padding: 200px 200px;
+    margin:auto;
+}

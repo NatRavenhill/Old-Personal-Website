@@ -8,6 +8,7 @@
 background-size : cover;
 color:white;
 height:600px;
+font-family: 'Lora', sans-serif;
 //margin-top: -24px;
 
 }
@@ -28,6 +29,7 @@ height:600px;
   text-align:center;
   background-color: rgba(24, 0, 55, 0.6);
   width:100%;
+  font-family: 'Lora', sans-serif;
 }
 
 .projtitle h1 {
@@ -148,6 +150,7 @@ body {
 
  .container {
      font-size:large;
+     font-family: 'Roboto', sans-serif;
  }
 
  #projects {
@@ -193,4 +196,20 @@ body {
 #project {
     padding: 200px 200px;
     margin:auto;
+}
+
+.proj-cont {
+  background-color:white;
+  color:black;
+  margin:auto;
+  padding: 80px 120px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+color:#93a5ff;
+}
+
+.proj-cont a {
+ color:blue;
 }

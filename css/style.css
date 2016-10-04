@@ -162,6 +162,13 @@ body {
   padding: 80px 120px;
  }
 
+ .list-group {
+     padding: 20px 120px;
+     margin:auto;
+     color:black;
+
+ }
+
 
  .carousel {
    

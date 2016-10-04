@@ -150,7 +150,7 @@ body {
 
  .container {
      margin:auto;
-     padding: 50px 50px;
+     padding: 10% 10%;
      font-size:large;
      font-family: 'Roboto', sans-serif;
  }
@@ -163,7 +163,7 @@ body {
  }
 
  .list-group {
-     padding: 20px 120px;
+     //padding: 10% 10%;
      margin:auto;
      color:black;
 

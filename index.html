@@ -73,6 +73,9 @@
    <div id ="me" class="container">
      <h2>About Me</h2>
      <br>
+       <div class="hidden-xs">
+	 <p>This content won't be visible on a tablet, or screen resolution ≥768p and < 992px</p>
+	</div>
        <p> I was a <strong>Computer Science masters student </strong> studying at the <a href="http://cs.bham.ac.uk"> University of Birmingham</a>. I have just finished my MSc in Advanced Computer Science there.</p>
        
        <p> I am interested in research in Theoretical Computer Science, particularly in Programming Language Semantics. My masters project studied the Operational and Denotational Semantics of PCF and the Adequacy theorem for it.</p>
@@ -89,14 +92,14 @@
 
   <br>
 
-    <h4>The following research projects are the most recent projects completed when I was a Computer Science student. Click the images below to read more about them and access the reports, or click <a href="project.html">here</a> to see them all.</h4>
+    <h4>The following research projects are the most recent projects completed when I was a Computer Science student. <div class="hidden-xs">Click the images below to read more about them and access the reports. Alternatively </div> click <a href="project.html">here</a> to see them all.</h4>
 
     <br>
   
   <!-- add link to old projetcs page here-->
 
   <!--featured projects in carousel -->
-<div id="projCarousel" class="carousel slide text-center hidden-sm-down" data-ride="carousel">
+<div id="projCarousel" class="hidden-xs carousel slide text-center" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#projCarousel" data-slide-to="0" class="active"></li>
@@ -105,31 +108,34 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
+  <div class=" hidden-sm-down carousel-inner" role="listbox">
+    <div class="hidden-sm-down item active">
       <a href="PCF.html"><img class="img-responsive center-block" src="./PCF/report.png"/></a>
     </div>
-    <div class="item">
+    <div class="hidden-sm-down item">
       <a href="Semantics.html"><img class="img-responsive center-block" src="./Semantics/report.png" /></a>
     </div>
-    <div class="item">
+    <div class="hidden-sm-down item">
       <a href="Sep.html"><img class="img-responsive center-block" src="./Sep/report.png"/></a>
     </div>
   </div>
 
   <!-- Left and right controls -->
-  <a class="left carousel-control" href="#projCarousel" role="button" data-slide="prev">
+  <a class="hidden-sm-down left carousel-control" href="#projCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#projCarousel" role="button" data-slide="next">
+  <a class="hidden-sm-down right carousel-control" href="#projCarousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
   <h3>More projects are <a href="project.html">here</a></h3>
 </div>
 
-</div>
+    </div>
+
+    
+    
 
 <!-- footer-->
 <div class="text-center" style="padding-top:50px;, padding-bottom:50px;">

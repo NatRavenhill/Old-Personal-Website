@@ -80,8 +80,11 @@ color:white;
 font-size: 20px;
 padding-bottom: 50px;
 
-
 }*/
+
+.btn-primary {
+ background:rgba(24, 0, 55, 0.6);
+}
 
 .nav li {
   display: inline;
@@ -163,11 +166,15 @@ body {
  }
 
  .list-group {
-     //padding: 10% 10%;
+     padding: 1% 1%;
      margin:auto;
+     font-family: 'Roboto', sans-serif;
      color:black;
-
  }
+
+.list-group h2 {
+   color:rgba(24, 0, 55, 0.6);
+}
 
 
  .carousel {
@@ -198,12 +205,12 @@ body {
 }
 
 #me {
- padding: 50px 50px;
+ padding: 10%px 10%px;
  margin:auto;
 }
 
 #project {
-    padding: 50px 50px;
+    padding: 10% 10%;
     margin:auto;
 }
 
@@ -211,7 +218,6 @@ body {
   background-color:white;
   color:black;
   margin:auto;
- // padding: 80px 120px;
   font-family: 'Roboto', sans-serif;
 }
 

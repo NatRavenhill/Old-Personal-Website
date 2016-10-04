@@ -163,7 +163,7 @@ body {
 
  .carousel {
    
-     padding:100px 100px;
+    padding:100px 100px;
  }
  
  .carousel-inner{
@@ -189,12 +189,12 @@ body {
 }
 
 #me {
- padding: 100px 200px;
+ padding: 50px 50px;
  margin:auto;
 }
 
 #project {
-    padding: 200px 200px;
+    padding: 50px 50px;
     margin:auto;
 }
 
@@ -202,7 +202,7 @@ body {
   background-color:white;
   color:black;
   margin:auto;
-  padding: 80px 120px;
+ // padding: 80px 120px;
   font-family: 'Roboto', sans-serif;
 }
 

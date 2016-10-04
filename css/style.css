@@ -149,6 +149,8 @@ body {
 
 
  .container {
+     margin:auto;
+     padding: 50px 50px;
      font-size:large;
      font-family: 'Roboto', sans-serif;
  }

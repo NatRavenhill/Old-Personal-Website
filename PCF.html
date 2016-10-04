@@ -12,10 +12,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
         
-        <title>Natalie Ravenhill - HoTT</title>
+        <title>Natalie Ravenhill - PCF</title>
    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     </head>
     <body>
@@ -59,39 +59,32 @@
 
      <!--end of menu -->
         
-   <div class=" jumbotron projtitle">
-   <H1><b>Martin Lof Type Theory, Homotopy Type Theory and Agda</b></H1>
+   <div class="projtitle jumbotron">
+   <H1>Adequacy of PCF</H1>
     </div>
 
 
-            <div class="container proj-cont">
- <p> This was a project for the Individual study module in the 3rd year of my undergraduate degree, for which I wrote a <a href="HoTT/report.pdf">report</a> and gave a <a href="HoTT/Presentation.pdf">presentation.</a></p>
+  <div class="container proj-cont">
+    <p> This was the main project of my masters degree, for which I wrote a <a href="PCF/report.pdf">report</a>. After formalising a simple imperative lamguage in Agda for my last <a href="Sematics.html">mini project</a>, I wanted to work on a more complicated language, and look at recursion in particular.</p>
 
- <p>Homotopy Type Theory (HoTT) is an extension of Dependent Type Theory that uses concepts and constructions from Homotopy theory, a branch of topology, that describes when two objects in a topological space can be continuously deformed into each other. Most of the inital work by many researchers was published as a freely available <a href="http://homotopytypetheory.org/book/">book</a>. This book was being brought out and discussed a lot in my department, particularly at the Agda Club, so I wanted to see what HoTT was all about. </p>
+    <p> I chose PCF for this reason. <a href="https://en.wikipedia.org/wiki/Programming_Computable_Functions">Programming Computable Functions (PCF)</a> is a simple function programming language and is an extension of the <a href="https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus">Simply Typed Lambda Calculus</a> with recursion defined by fixpoint recursion.</p>
 
- <p> Therefore this project started as an attempt to write some type theory and HoTT in the proof assitant Agda. Agda is based on Dependent Type theory, so it is easy to construct dependent types using Agda.</p>
+    <p>In my project I defined the operational and denotational semantics of PCF and proved the Soundness of the operational semantics with telation to the denotational semantics. I also proved a property called <a href="https://en.wikipedia.org/wiki/Type_safety">Type Safety</a>. In the previous mini project I proved Completeness of the two approaches to the Sematics of my language. In PCF, we cannot prove this theorem, but instead prove a simpler property called Adequacy.</p>
 
- <p> In the report I formalised all of the Dependent Type Theory defined in Chapter 1 of the HoTT book and began to formaise the HoTT in Chapter 2. I learnt about constructing and using (dependent) (co)product/function,boolean, natural number and identity types in Dependent Type Theory and also studied the Curry Howard correspondence between types and intuitionstic logic </p>
+    <p>This property states that any closed term of base type (natural number type) evaluates to the same expression in both version of the semantics and that this can be proved in both directions. To prove this, I studied a new proof technique called <a href="https://ncatlab.org/nlab/show/logical+relation">Logical Relations</a>. I also discussed how the Logical Relations technique can be used to prove that there are some elements of the denotational model that do not correspond to any programs we can define in PCF, as described in <a href="https://pdfs.semanticscholar.org/82fd/128721017912939cc859623e550d87561f0a.pdf">Thomas Steicher's textbook</a>.</p>
 
- <p>I also learnt how identity types correspond to paths and that this can be used to build up HoTT, showing that properties that hold for equality also hold on paths in a space and homotopies on these paths.</p>
 
-    <br>
-      <br>
+   <br><br>
+       <div class="row">
+	 <div class="col-sm-4"></div>
+	  <div class="well col-sm-4 text-center">
+	    <a href="PCF/report.pdf"><img src="./PCF/report.png" height="100" width="100"/>
+	      <p>Read the report</p></a>
+	  </div>
+	  <div class="col-sm-4"></div>
 
-    <div class="row">
-      <div class="well col-sm-5 text-center">
-	<a href="HoTT/report.pdf"><img src="./HoTT/report.png" height="100" width="100"/>
-	<p>Read the report</p></a>
-      </div>
-      <div class="col-sm-1"></div>
-      <div class="well col-sm-5 text-center">
-	<a href="HoTT/Presentation.pdf"><img src="./HoTT/pres.png" height="100" width="100"/>
-	<p>See the slides</p></a>
-      </div>
-
-    </div>
-
-    </div>
+	</div>
+</div>
 
     </body>
 </html>
